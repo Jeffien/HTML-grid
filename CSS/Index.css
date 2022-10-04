@@ -41,7 +41,44 @@ aside {
     width: 100%;
     justify-content: space-between;
 }
-.divider{
+
+.divider {
     background-color: #fdb8fd;
     height: 3px;
 }
+
+.assignment-1 {
+    display: grid;
+    background-color: #fdb8fd;
+    max-width: 300px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 50px 150px;
+    grid-template-areas:
+        "g_area_top g_area_top g_area_top g_area_top g_area_top g_area_top"
+        "g_area_main1 g_area_main1 g_area_main1 g_area_main1 g_area_sidebar g_area_sidebar"
+    ;
+}
+
+.top {
+    background-color: #f594f5;
+    display: flex;
+    grid-area: g_area_top;
+}
+
+.main-1 {
+    background-color: #e26be2;
+    display: flex;
+    grid-area: g_area_main1;
+}
+
+.sidebar {
+    background-color: #c949c9;
+    display: flex;
+    grid-area: g_area_sidebar;
+}
+
+.divider-2 {
+    background-color: yellowgreen;
+    height: 3px;
+}
+
