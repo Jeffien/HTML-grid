@@ -4,25 +4,38 @@ body {
 }
 
 header {
-    display: flex;
-    grid-area: g_area_header;
     background-color: #85e9ec;
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    grid-area: g_area_header;
+ 
 }
 
 main {
+    margin: 5px;
+    padding: 5px;
     grid-area: g_area_main;
     background-color: #36d4da;
 }
-
+.menu{
+    display: flex;
+    justify-content: center;
+}
 aside {
+    margin: 5px;
+    padding: 5px;
     grid-area: g_area_aside;
     background-color: #08b8be;
 }
 
 .grid-container {
+    margin: 5px;
+    padding: 5px;
     display: grid;
     background-color: #2d9497;
-    max-width: 1000px;
+    width: 100%;
+    max-width: 1280px;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 100px auto;
     grid-template-areas:
@@ -34,12 +47,13 @@ aside {
 }
 
 .content-actual {
+    margin: 5px;
+    padding: 5px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     background-color: #0caaa2;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .divider {
@@ -48,6 +62,8 @@ aside {
 }
 
 .assignment-1 {
+    margin: 5px;
+    padding: 5px;
     display: grid;
     background-color: #fdb8fd;
     max-width: 300px;
@@ -60,18 +76,24 @@ aside {
 }
 
 .top {
+    margin: 5px;
+    padding: 5px;
     background-color: #f594f5;
     display: flex;
     grid-area: g_area_top;
 }
 
 .main-1 {
+    margin: 5px;
+    padding: 5px;
     background-color: #e26be2;
     display: flex;
     grid-area: g_area_main1;
 }
 
 .sidebar {
+    margin: 5px;
+    padding: 5px;
     background-color: #c949c9;
     display: flex;
     grid-area: g_area_sidebar;
