@@ -113,7 +113,7 @@ li {
     grid-area: g_area_main3;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -124,20 +124,22 @@ li {
     border-width: 1px;
 
 }
-.text{
+
+.text {
     display: flex;
     text-align: center;
 
 }
 
-.textform{
+.textform {
     margin: 10px;
     padding: 10px;
     border: #490b0b;
     border-style: hidden;
     box-shadow: 5px 10px 18px #913c3c;
 }
-.CardRubrik{
+
+.CardRubrik {
     text-shadow: 5px 10px 12px #490b0b;
 
 }
@@ -147,29 +149,28 @@ li {
     grid-area: g_area_side;
 }
 
-#pic-container{
+#pic-container {
     display: flex;
     justify-content: center;
     padding: 1rem 0;
 }
 
-#main-container{
+#main-container {
     width: auto;
     height: auto;
     text-align: center;
     background-color: #f8d300;
 }
 
-#pic-container{
+#pic-container {
     width: auto;
     height: auto;
 }
 
-.translate{
+.translate {
     transform: rotateX(180deg);
     transition-duration: 6s;
     transition-delay: 0.3s;
-
 }
 
 .box-A {
